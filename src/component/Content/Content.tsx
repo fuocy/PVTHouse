@@ -11,7 +11,7 @@ import Comments from "../comments/Comments";
 export default function Content() {
   return (
     <>
-      <div className="max-w-[1110px] mx-auto px-6 py-[100px] flex gap-8 text-lg text-gray-700 leading-relaxed">
+      <div className="max-w-[1110px] mx-auto px-6 py-[100px] flex sm:flex-row flex-col gap-8 text-lg text-gray-700 leading-relaxed">
         <div>
           <h2 className="text-xl text-black font-medium mb-4">
             Nội dung bài viết
@@ -278,7 +278,7 @@ export default function Content() {
         <SideBar />
       </div>
 
-      <div className="max-w-[880px] ml-[200px] px-6 mb-[70px]">
+      <div className="max-w-[880px] sm:ml-[200px] ml-2 px-6 mb-[70px]">
         <Comments />
       </div>
     </>

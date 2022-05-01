@@ -6,9 +6,9 @@ export default function Title() {
       <img
         src={truongImg}
         alt=""
-        className="w-full object-cover bg-center h-[400px]"
+        className="w-full object-cover bg-center sm:h-[400px] h-[300px]"
       />
-      <h1 className="absolute bottom-10 left-56 text-white text-[50px] font-bold">
+      <h1 className="absolute bottom-10 sm:left-56 left-7 text-white sm:text-[50px] text-[40px] font-bold">
         {/* Vài dạng toán cho đề thi sắp tới */}
         Cách ôn tập môn Toán mục tiêu 9 điểm
       </h1>

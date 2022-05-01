@@ -54,7 +54,7 @@ const NewCommentForm = (props) => {
           <LoadingSpinner />
         </div>
       )}
-      <div className="flex items-center gap-10">
+      <div className="flex sm:gap-10 gap-3 ">
         <textarea
           ref={commentTextRef}
           className="py-2 px-4 flex-1 outline-none rounded-sm bg-[#F6F5F3]"

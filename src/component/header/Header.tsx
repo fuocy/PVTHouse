@@ -30,7 +30,7 @@ const navLinks = [
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center gap-5 py-4 px-8">
+    <header className="flex justify-between items-center gap-5 py-4 px-8 ">
       <div className="flex gap-5 items-center">
         <img
           src={logo}
@@ -42,7 +42,7 @@ export default function Header() {
         </p>
       </div>
 
-      <ul className="flex gap-10">
+      <ul className="sm:flex gap-10 hidden">
         {navLinks.map((nav) => (
           <li key={nav.id}>
             <a
