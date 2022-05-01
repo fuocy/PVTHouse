@@ -9,6 +9,8 @@ export default function Trending() {
       <a
         className={`text-gray-400 hover:text-gray-200 transition text-sm sm:text-lg `}
         href="https://www.facebook.com/allaboutpvthighschool"
+        target="_blank"
+        rel="noreferrer"
       >
         Let's make Phan Van Tri confession great again!
       </a>
