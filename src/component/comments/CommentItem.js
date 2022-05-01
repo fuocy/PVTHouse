@@ -1,5 +1,3 @@
-import classes from "./CommentItem.module.css";
-
 const avatars = [
   "https://i.ibb.co/zrXfKsJ/catface-7.jpg",
   "https://i.ibb.co/rd3PGq5/catface-9.png",
@@ -12,11 +10,11 @@ const avatars = [
   "https://i.ibb.co/stB42Nb/catface-5.jpg",
 ];
 
-const userAvatar = avatars[Math.floor(Math.random() * avatars.length - 1) + 0];
+const userAvatar = avatars[Math.floor(Math.random() * avatars.length - 1) + 1];
 
 const CommentItem = (props) => {
   return (
-    <li className="flex items-center gap-10 mb-6 ">
+    <li className="flex items-center gap-5 sm:gap-10 mb-6 ">
       <img
         src={userAvatar}
         alt="user avatar"

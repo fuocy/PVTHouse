@@ -13,9 +13,9 @@ export default function DangToanItem({ title, link, appearance }: AppProps) {
           href={link}
           target="_blank"
           rel="noreferrer"
-          className="text-blue-500 hover:text-blue-700 transition"
+          className="text-blue-500 hover:text-blue-700 transition w-[100px] text-right shrink-0"
         >
-          Bấm vào đây để tải tài liệu
+          Tải tài liệu
         </a>
       </div>
       <div className="mt-3 ">Dạng toán xuất hiện ở: </div>

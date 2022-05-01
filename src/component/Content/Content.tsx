@@ -8,6 +8,7 @@ import DangToanItem from "./DangToanItem";
 import DANG_TOAN from "./dang-toan";
 import { DANG_TOAN2 } from "./dang-toan";
 import Comments from "../comments/Comments";
+import ScrollButton from "./ScrollButton";
 export default function Content() {
   return (
     <>
@@ -22,18 +23,24 @@ export default function Content() {
               2. Những dạng bài vận dụng – vận dụng cao phân tích từ đề minh
               họa/chính thức những năm gần đây
             </li>
-            <li>3. Vài lời nói nhảm nhảm</li>
+            <li>3. Vài tips của tác giả</li>
           </ul>
           <div className="mt-10">
             "Để có thể đạt được điểm cao thì các bạn phải làm được đồng thời hai
             yếu tố đó là câu dễ các bạn không được làm sai và làm được những câu
-            khó.". Đây là câu người ta nói, còn anh thì không làm được, nhưng
-            anh chém gió được ^^.
-            <br /> Bài viết này anh mong giúp được các em một chút nào đó.
+            khó.". Đó là người ta, còn anh thì không làm được, nhưng anh chém
+            gió được.
+          </div>
+          <div className="mt-3">
+            Bài viết này anh mong giúp được các em một chút nào đó.
           </div>
           <h3 className="text-3xl font-bold mt-10">
             1. Những dạng bài dễ nhầm từ đề minh họa
           </h3>
+          <p className="mt-4">
+            Sau khi đọc qua 6 đề gồm đề minh họa và đề chính thức từ năm 2020,
+            anh muốn chỉ ra vài dạng bài đơn giản những dễ mắc sai sót.
+          </p>
           <div className="font-bold mt-5 text-xl">Từ đề minh họa 2022</div>
 
           <div className="mt-8 font-medium">
@@ -170,12 +177,12 @@ export default function Content() {
             đây và em khóc huhu")
           </p>
 
-          <h3 className="text-3xl font-bold mt-10">
+          <h3 className="text-3xl font-bold mt-14">
             2. Những dạng bài vận dụng – vận dụng cao phân tích từ đề minh
             họa/chính thức những năm gần đây
           </h3>
 
-          <ul className="mt-3">
+          <ul className="mt-8">
             <li>
               - Khi so sánh giữa đề minh họa và đề chính thức 2021 thì anh thấy
               các câu vận dụng / vận dụng cao của đề minh họa có dạng nào thì đề
@@ -232,7 +239,7 @@ export default function Content() {
               rel="noreferrer"
               className="text-blue-500 hover:text-blue-700 transition"
             >
-              Bấm vào đây để tải toàn bộ drive
+              Tải toàn bộ tài liệu
             </a>
           </div>
 
@@ -243,19 +250,19 @@ export default function Content() {
             www.toanmath.com
           </p>
 
-          <h3 className="text-3xl font-bold mt-10">3. Vài lời nói nhảm nhảm</h3>
+          <h3 className="text-3xl font-bold mt-10">3. Vài tips của tác giả </h3>
           <ul className="mt-5 flex flex-col gap-3">
             <li>- Làm câu nào chắc câu đó, không có thời gian nhìn lại.</li>
             <li>- Không sai ngu, không sai ngu, không sai ngu.</li>
             <li>
               - Ôn dạng VD/VDC cao vậy thôi chứ vào thi mấy câu cuối nó lạ lắm,
-              nên ráng làm chắc mấy câu đầu trước, mấy câu cuối lụi sau
+              nên chuẩn bị sẵn thêm tâm lý làm chắc mấy câu đầu trước, mấy câu
+              cuối lụi sau
             </li>
             <li>
               - Một số khóa luyện đề hay: PEN I luyện đề của thầy Tùng hocmai,
               khóa XMin của thầy Nam Vted luyện những đề của các trường/sở. Pen
-              I Lý của thầy Đỗ Ngọc Hà. Tiếng Anh luyện đề của anh Hoàng Việt
-              Hưng.
+              I Lý của thầy Đỗ Ngọc Hà. Tiếng Anh - Hoàng Việt Hưng.
               <br />
               Một vài sở cho đề rất sát và hay: sở Nam Định, sở Phú Thọ, sở Hà
               Tĩnh, sở Nghệ An, sở Ninh Bình, sở Thanh Hoá, sở Thái Bình, sở
@@ -266,14 +273,14 @@ export default function Content() {
             <li>
               - Nếu thấy đề có 1 câu có thể làm được nhưng không kịp giờ, hãy
               ráng ghi nhớ cái đề đó, lưu các số liệu, đáp án vào máy tính. Sang
-              giờ thi môn tiếp theo thì lấy ra làm.
+              giờ thi môn tiếp theo thì lấy ra làm (Áp dụng với bài thi tổ hợp).
             </li>
           </ul>
 
           <p className="mt-10">
             Hi vọng rằng nội dung này hữu ích với các em. Chúc các em thi tốt.
           </p>
-          <p className="text-right mt-10">Tác giả: Fuocy</p>
+          <p className="text-right mt-10">Fuocy</p>
         </div>
         <SideBar />
       </div>
@@ -281,6 +288,8 @@ export default function Content() {
       <div className="max-w-[880px] sm:ml-[200px] ml-2 px-6 mb-[70px]">
         <Comments />
       </div>
+
+      <ScrollButton />
     </>
   );
 }

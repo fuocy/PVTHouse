@@ -1,31 +1,20 @@
 export default function SideBar() {
   return (
-    <div className="h-[200px] max-w-[900px] mb-28">
+    <div className="h-[200px] max-w-[900px] sm:w-[900px] mb-28">
       <div className="bg-[#19202D] text-white px-5 py-2">Các bài viết khác</div>
 
-      <ul className="mt-8 flex flex-col gap-4">
+      <ul className="mt-8 flex flex-col gap-4 px-3">
         <li className="text-gray-600 hover:text-gray-800 transition">
-          <a href="/">
-            "Muốn được điểm 9 thì bạn cứ bỏ 5 câu cuối là được" - bạn Nam chia
-            sẻ
-          </a>
+          <a href="/">Tổng hợp các công thức Lý </a>
         </li>
         <li className="text-gray-600 hover:text-gray-800 transition">
-          <a href="/">
-            Dành nhiều thời gian ôn mấy dạng VDC, nam sinh lụi không trúng phát
-            nào
-          </a>
+          <a href="/">Các phương trình hóa học phổ biến</a>
         </li>
         <li className="text-gray-600 hover:text-gray-800 transition">
-          <a href="/">
-            Trổ tài đoán dạng bài ôn thi, nam thanh niên bị oánh vì đoán sai hết
-          </a>
+          <a href="/">Các công thức tính nhanh toán học</a>
         </li>
         <li className="text-gray-600 hover:text-gray-800 transition">
-          <a href="/">
-            Vui mừng vì làm đúng tận 2 câu khó, bạn Nam thở phào vì sai chỉ có 3
-            câu dễ
-          </a>
+          <a href="/">Cách ngủ 8 tiếng trong 3 tiếng</a>
         </li>
       </ul>
     </div>

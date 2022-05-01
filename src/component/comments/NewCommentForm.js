@@ -60,7 +60,7 @@ const NewCommentForm = (props) => {
           className="py-2 px-4 flex-1 outline-none rounded-sm bg-[#F6F5F3]"
           placeholder="Bạn bình luận gì đi"
         />
-        <button className="py-3 px-5 bg-yellow-400 rounded-sm hover:bg-yellow-500 transition">
+        <button className="py-1 px-3 text-sm sm:text-base sm:py-3 sm:px-5 bg-yellow-400 rounded-sm hover:bg-yellow-500 transition">
           Thêm bình luận
         </button>
       </div>
