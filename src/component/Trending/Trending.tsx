@@ -8,7 +8,7 @@ export default function Trending() {
         className={`text-gray-400 hover:text-gray-200 transition text-sm sm:text-lg `}
         href="/"
       >
-        Các dạng bài vận dụng nên ôn cho đề thi toán 2022
+        Let's make Phan Van Tri confession great again!
       </a>
     </div>
   );
