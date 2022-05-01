@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 export default function Trending() {
   return (
     <div className="flex gap-10 bg-[#19202D] p-2 items-center">
@@ -6,7 +8,7 @@ export default function Trending() {
       </div>
       <a
         className={`text-gray-400 hover:text-gray-200 transition text-sm sm:text-lg `}
-        href="/"
+        href="https://www.facebook.com/allaboutpvthighschool"
       >
         Let's make Phan Van Tri confession great again!
       </a>
