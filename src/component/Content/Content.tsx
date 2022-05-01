@@ -280,7 +280,7 @@ export default function Content() {
           <p className="mt-10">
             Hi vọng rằng nội dung này hữu ích với các em. Chúc các em thi tốt.
           </p>
-          <p className="text-right mt-10">Fuocy</p>
+          <p className="text-right mt-10">Tác giả: Fuocy</p>
         </div>
         <SideBar />
       </div>
